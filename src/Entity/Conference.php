@@ -147,7 +147,6 @@ class Conference
      * Adds a comment to the current conference.
      *
      * @param Comment $comment The comment to be added.
-     * @throws Some_Exception_Class If the comment is already added.
      * @return static Returns the updated Conference object.
      */
     public function addComment(Comment $comment): static
