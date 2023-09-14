@@ -55,6 +55,16 @@ class Conference
     }
 
     /**
+     * Converts the object to a string representation.
+     *
+     * @return string The string representation of the object.
+     */
+    public function __toString()
+    {
+        return $this->city.' '.$this->year;
+    }
+
+    /**
      * Retrieves the ID of the object.
      *
      * @return int|null The ID of the object, or null if it doesn't have one.
